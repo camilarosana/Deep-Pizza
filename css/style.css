@@ -23,6 +23,7 @@ body {
     box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
     transition: all 0.5s;
+    position: fixed;
 }
 .logo {
     color: #d63a25;
@@ -61,4 +62,43 @@ body {
     border-radius: 3px;
     background: #1e1c2a;
     margin: 5px auto;
+} 
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+.home-text {
+    max-width: 37rem;
+}
+.home-text h4 {
+    font-size: 1.5rem;
+    color: #d63a25;
+    margin-bottom: 1rem;
+}
+.home-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+}
+.home-text p {
+    margin-bottom: 3rem;
+}
+.btn {
+    padding: 15px 40px;
+    background-color: #d63a25;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: #fc4c35;
+}
+.home-img img {
+    width: 100%;
+    margin-top: 2rem;
 }
